@@ -40,7 +40,7 @@ export const Bascet = () => {
             {orderPlaced && (
               <div className={style.orderSuccess}>
                 <img src="ordered.png"  className={style.img}/>
-                <Title size="m" text="Заказ оформлен!" style={{ color: "#9DD458" }}/>
+                <Title size="m" text="Заказ оформлен!dyuhio" style={{ color: "#9DD458" }}/>
                 <Title
                   size="s"
                   text={`Ваш заказ #${orders.length} скоро будет передан курьерской доставке`}
